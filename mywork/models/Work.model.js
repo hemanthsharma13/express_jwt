@@ -12,6 +12,10 @@ const Work = db.define("Work", {
     type: Sequelize.INTEGER,
     primaryKey: true,
   },
+  test: {
+    type: Sequelize.INTEGER,
+    primaryKey: false,
+  },
 });
 
 module.exports = Work;
